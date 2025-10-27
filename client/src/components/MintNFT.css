@@ -1,0 +1,227 @@
+.mint-nft-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mint-nft-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wallet-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.network-info {
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.network-info p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.wallet-info {
+  background: #e8f5e9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.wallet-info p {
+  margin: 5px 0;
+  color: #2e7d32;
+}
+
+.wallet-address {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  word-break: break-all;
+}
+
+.input-section {
+  margin: 30px 0;
+}
+
+.input-section label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.mint-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 10px;
+}
+
+.mint-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mint-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #667eea;
+  background: white;
+  border: 2px solid #667eea;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background: #667eea;
+  color: white;
+}
+
+.secondary-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.status-message {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  background: #f0f0f0;
+  color: #333;
+}
+
+.status-message.success {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-message.error {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.minted-nft-info {
+  margin-top: 30px;
+  padding: 20px;
+  background: #e3f2fd;
+  border-radius: 10px;
+  border-left: 4px solid #2196f3;
+}
+
+.minted-nft-info h3 {
+  margin-bottom: 15px;
+  color: #1976d2;
+}
+
+.minted-nft-info p {
+  margin: 8px 0;
+  color: #333;
+  word-break: break-all;
+}
+
+.success-message {
+  color: #2e7d32;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.info-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff3e0;
+  border-radius: 10px;
+  border-left: 4px solid #ff9800;
+}
+
+.info-box h3 {
+  color: #e65100;
+  margin-bottom: 15px;
+}
+
+.info-box ol {
+  margin-left: 20px;
+  color: #333;
+}
+
+.info-box li {
+  margin: 10px 0;
+}
+
+.note {
+  margin-top: 15px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .mint-nft-card {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 1.8em;
+  }
+  
+  .subtitle {
+    font-size: 1em;
+  }
+}
