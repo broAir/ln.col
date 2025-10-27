@@ -1,0 +1,24 @@
+{
+  "name": "ln-col-server",
+  "version": "1.0.0",
+  "description": "Backend server for NFT minting with Metaplex Candy Machine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["solana", "nft", "metaplex", "candy-machine"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@solana/web3.js": "^1.87.6",
+    "@metaplex-foundation/js": "^0.19.4",
+    "@metaplex-foundation/mpl-candy-machine": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
